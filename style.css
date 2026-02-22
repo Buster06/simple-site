@@ -1,0 +1,20 @@
+/* Colors */
+
+:root {
+    --color-background-dark:rgb(16,16,16);
+    --color-background:rgb(32,32,32);
+    --color-background-light:rgb(48,48,48);
+    --color-text:rgb(255,255,250);
+    --color-blue:rgb(60,60,255);
+    --color-green:rgb(60,255,60);
+    --color-red:rgb(255,60,60);
+    --color-yellow:rgb(255,255,60);
+    --color-purple:rgb(174,255,60);
+}
+
+/* Style */
+
+* {
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
